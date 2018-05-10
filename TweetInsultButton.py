@@ -6,13 +6,13 @@ from twython import Twython
 
 
 # find insult list
-config = yaml.load(open('/home/pi/Desktop/insults.yml'))
+config = yaml.load(open(' ')) # here you'll need to add the path to the yaml file
 
-# twython setup
-CONSUMER_KEY = 'gnCkYsszqPSx25rHhpQmTiUn5'
-CONSUMER_SECRET = 'vTKVZawmoZdrKEX6ibxpmnf1F3vqiI4WAWvmHnAf6hpX2blcdv'
-ACCESS_TOKEN = '968602481608527879-O1J1epzMZJqmTsvHWho7o1dnjmIcS9Z'
-ACCESS_SECRET = 'hhen4jv6XSaz9k12PVeJRjeKP8nyX9yEFnNeIgAyIwf98'
+# twython setup. Add your key, token, and secrets here
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_TOKEN = ''
+ACCESS_SECRET = ''
 
 api = Twython(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET)
 
